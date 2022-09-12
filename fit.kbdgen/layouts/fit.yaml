@@ -696,8 +696,8 @@ transforms:
     U: Ũ
 
 strings:
-  space: väli
-  return: "rivin\u00ADvaihto"
+  space: Väli
+  return: "Rivin\u00ADvaihto"
 
 targets:
   win:
