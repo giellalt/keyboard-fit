@@ -711,4 +711,3 @@ targets:
   android:
     spellerPackageKey: https://pahkat.uit.no/main/packages/speller-fit?channel=nightly&platform=mobile
     spellerPath: fit.bhfst
-
