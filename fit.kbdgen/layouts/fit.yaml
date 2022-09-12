@@ -701,7 +701,7 @@ strings:
 
 targets:
   win:
-    locale: fit-Latn-FI
+    locale: fit-Latn-SE
   chrome:
     locale: "se"
     xkbLayout: "se"
