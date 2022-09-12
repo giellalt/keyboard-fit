@@ -97,10 +97,10 @@ modes:
         A S D F G H J K L Ö Ä '
       < Z X C V B N M , . -
     alt: |
-      ¶ © @ £ $ ∞ § | [ ] ≈ ± ¨
-        • Ω é ® ŧ µ ü ı œ π ˙ ~
-         š đ ƒ ¸ ˛ √ ª ﬁ ø æ ™
-      ≤ ž ≈ č ‹ › ‘ ’ ‚ … –
+      ¶ © @ £ $ ∞ § | [ ] ≈ ± ˝
+        ˚ Ω é ® ŧ µ ü ˀ œ π ˙ ˆ
+         š đ ƒ ¸ ˛ ˘ ˇ ﬁ ø æ ™
+      ≤ ž ≈ č ‹ › ‘ ’ ‚ … -
     alt+shift: |
       • ¡ ” ¥ ¢ ‰ ¶ \ { } ≠ ¿ ^
         ° ˝ É √ Ŧ ˜ Ü ˆ Œ ∏ ˚ ^
@@ -210,7 +210,7 @@ longpress:
   I:     Ï Í Ì Î Ĩ Ī Ị I
   O:   Ø   Ó Ò Ô Õ Ō Ọ Ȯ Ő Œ
   U:     Ü Ú Ù Û Ũ Ū Ụ Ů
-  Y:     Ÿ Ý Ỳ Ŷ Ỹ Ȳ Ẏ Y̊ Ɏ
+  Y:     Ÿ Ý Ỳ Ŷ Ỹ Ȳ Ẏ Y̊ Ɏ
   Ä: Æ
   Ö: Ø
 
@@ -228,7 +228,7 @@ longpress:
   i:     ï í ì î ĩ ī ị i
   o:   ø   ó ò ô õ ō ọ ȯ ő œ
   u:     ü ú ù û ũ ū ụ ů
-  y:     ÿ ý ỳ ŷ ỹ ȳ ẏ ẙ ɏ
+  y:     ÿ ý ỳ ŷ ỹ ȳ ẏ ẙ ɏ
   ä: æ
   ö: ø
 
@@ -244,7 +244,7 @@ longpress:
   '%': ‰ ∞
   '=': ≠ ≈
   '-': • – —
-  '&': §
+  '&': § 
   '?': ¿
   '!': ¡
   '.': ', ; : ? ! ¿ ¡'
@@ -256,7 +256,7 @@ deadKeys:
     default: [´]
     shift: ['`']
     caps: [´]
-    alt: ['-', ¨, ƒ, ʼ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˝]
+    alt: ['-', ¨, ƒ, ʼ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˝] # denne (?) gav feilmelding
     alt+shift: [ʔ, №]
     caps+alt: ['-', ¸, ƒ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˝]
     cmd+alt: [¸, ƒ, ˙]
@@ -711,3 +711,4 @@ targets:
   android:
     spellerPackageKey: https://pahkat.uit.no/main/packages/speller-fit?channel=nightly&platform=mobile
     spellerPath: fit.bhfst
+
