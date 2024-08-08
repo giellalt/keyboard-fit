@@ -725,5 +725,4 @@ longpress:
   "'": ‚ ‘ ’
 keyNames:
   space: väli
-  return: rivin\u00ADvaihto
-
+  return: "rivin\u00ADvaihto"
